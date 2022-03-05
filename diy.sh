@@ -35,9 +35,9 @@ git clone https://github.com/jerrykuku/lua-maxminddb ../diy/lua-maxminddb
 
 echo '下载AdGuard Home'
 #svn co https://github.com/Lienol/openwrt/trunk/package/diy/luci-app-adguardhome ../diy/luci-app-adguardhome 
-svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-adguardhome ../diy/luci-app-adguardhome
-svn co https://github.com/kenzok8/openwrt-packages/trunk/adguardhome ../diy/adguardhome
-svn co https://github.com/jerrykuku/luci-app-vssr ../diy/luci-app-vssr
+#svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-adguardhome ../diy/luci-app-adguardhome
+#svn co https://github.com/kenzok8/openwrt-packages/trunk/adguardhome ../diy/adguardhome
+#svn co https://github.com/jerrykuku/luci-app-vssr ../diy/luci-app-vssr
 
 #echo 'JD script'
 #git clone https://github.com/Cathgao/luci-app-jd-dailybonus ../diy/luci-app-jd-dailybonus
