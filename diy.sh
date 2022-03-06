@@ -29,15 +29,14 @@ cp -f ../banner package/base-files/files/etc/
 
 echo '下载ServerChan'
 git clone https://github.com/tty228/luci-app-serverchan ../diy/luci-app-serverchan
-git clone https://github.com/kenzok8/openwrt-packages ../package/openwrt-packages
-git clone https://github.com/kenzok8/small ../package/small
 git clone https://github.com/jerrykuku/lua-maxminddb ../diy/lua-maxminddb
 
 echo '下载AdGuard Home'
 #svn co https://github.com/Lienol/openwrt/trunk/package/diy/luci-app-adguardhome ../diy/luci-app-adguardhome 
-#svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-adguardhome ../diy/luci-app-adguardhome
-#svn co https://github.com/kenzok8/openwrt-packages/trunk/adguardhome ../diy/adguardhome
-#svn co https://github.com/jerrykuku/luci-app-vssr ../diy/luci-app-vssr
+svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-adguardhome ../diy/luci-app-adguardhome
+svn co https://github.com/kenzok8/openwrt-packages/trunk/adguardhome ../diy/adguardhome
+svn co https://github.com/opengl20/luci-app-clash ../diy/luci-app-clash
+svn co https://github.com/tianiue/luci-app-bypass/tree/master/luci-app-bypass ../diy/luci-app-bypass
 
 #echo 'JD script'
 #git clone https://github.com/Cathgao/luci-app-jd-dailybonus ../diy/luci-app-jd-dailybonus
